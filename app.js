@@ -39,13 +39,13 @@ function getAnswer3 (){
     let guessFlower;
     do {
         guessFlower = prompt("Is my favorite flower a rose?").toLowerCase();
-        if (guessFlower != "yes") {
+        if (guessFlower != "no") {
             alert("Sorry, you guessed wrong! Try again!")
         } else {
             document.write("Yeah it's not a rose. I actually love lilacs and peonies.");
         }
 
-    } while (guessFlower != "yes")
+    } while (guessFlower != "no")
 }
 
 getAnswer3();
