@@ -3,6 +3,7 @@ let user = prompt('What is your name?');
 console.log('Welcome ' + user)
 
 function getAnswer1 (){
+    'use strict';
     let guessFruit;
     do {
         guessFruit = prompt("Is my favorite fruit a watermelon?").toLowerCase();
@@ -18,6 +19,7 @@ function getAnswer1 (){
 getAnswer1();
 
 function getAnswer2 (){
+    'use strict';
     let guessColor;
     do {
         guessColor = prompt("Is my favorite color red?").toLowerCase();
@@ -33,6 +35,7 @@ function getAnswer2 (){
 getAnswer2();
 
 function getAnswer3 (){
+    'use strict';
     let guessFlower;
     do {
         guessFlower = prompt("Is my favorite flower a rose?").toLowerCase();
@@ -48,6 +51,7 @@ function getAnswer3 (){
 getAnswer3();
 
 function getAnswer4 (){
+    'use strict';
     let guessIcecream;
     do {
         guessIcecream = prompt("Is my favorite ice cream salted caramel?").toLowerCase();
