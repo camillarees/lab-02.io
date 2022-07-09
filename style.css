@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+    
+h1 {
+     color: blue;
+}
+    
+header, footer, .footer-credits a {
+    background-color: black;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+p {
+    margin: auto;
+}
+
+a {
+color: white
+}
+
+main {
+    margin: auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
