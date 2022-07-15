@@ -2,4 +2,8 @@
 
 ## Welcome to my page!
 
-Here you will learn about my background, education and experience, as well as some fun facts about me!
+Some things you might find on my page:
+
+- My education and work experience background
+- Some trivia to get to know me better
+- My "top ten" list of places I want to visit
