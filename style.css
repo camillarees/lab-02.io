@@ -2,14 +2,23 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }  
     
 h1 {
-     color: blue;
+     color: rgb(163, 178, 247);
+     text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(163, 178, 247);
+    height: 100px;
+    font-size: 2rem;
 }
     
 header, footer, .footer-credits a {
-    background-color: black;
+    background-color: rgb(163, 178, 247);
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: white
@@ -20,6 +29,18 @@ header, footer, .footer-credits a {
 
 p {
     margin: auto;
+    color: black;
+    text-align: center;
+}
+
+li {
+    text-align: left
+}
+
+img {
+    align: center;
+    float: left;
+    height: 300px
 }
 
 a {
@@ -28,6 +49,7 @@ color: white
 
 main {
     margin: auto;
+    background-color: rgb(255, 255, 255);
 }
 
 .wrapper {
