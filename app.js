@@ -1,129 +1,131 @@
+'use strict';
 
-// let user = prompt('What is your name?');
-// console.log('Welcome ' + user)
+let score = 0;
 
-// function getAnswer1 (){
-//     'use strict';
-//     let guessFruit;
-//     do {
-//         guessFruit = prompt("Is my favorite fruit a watermelon?").toLowerCase();
-//         if (guessFruit != "yes") {
-//             alert("That's incorrect, please guess again")
-//         } else {
-//             document.write("That's correct!");
-//         }
+let user = prompt('What is your name?');
+console.log('Welcome ' + user)
 
-//     } while (guessFruit != "yes")
-// }
+function getAnswer1 (){
+    let guessFruit;
+    do {
+        guessFruit = prompt("Is my favorite fruit a watermelon?").toLowerCase();
+        if (guessFruit != "yes") {
+            alert("That's incorrect, please guess again")
+        } else {
+            document.write("That's correct!");
+            score++;
+        }
 
-// getAnswer1();
+    } while (guessFruit != "yes")
+}
 
-// function getAnswer2 (){
-//     'use strict';
-//     let guessColor;
-//     do {
-//         guessColor = prompt("Is my favorite color red?").toLowerCase();
-//         if (guessColor != "no") {
-//             alert("That's incorrect, please guess again")
-//         } else {
-//             document.write("You're right. My favorite color is actually blue.");
-//         }
+getAnswer1();
 
-//     } while (guessColor != "no")
-// }
+function getAnswer2 (){
+    let guessColor;
+    do {
+        guessColor = prompt("Is my favorite color red?").toLowerCase();
+        if (guessColor != "no") {
+            alert("That's incorrect, please guess again")
+        } else {
+            document.write("You're right. My favorite color is actually blue.");
+               score++;
+        }
 
-// getAnswer2();
+    } while (guessColor != "no")
+}
 
-// function getAnswer3 (){
-//     'use strict';
-//     let guessFlower;
-//     do {
-//         guessFlower = prompt("Is my favorite flower a rose?").toLowerCase();
-//         if (guessFlower != "no") {
-//             alert("Sorry, you guessed wrong! Try again!")
-//         } else {
-//             document.write("Yeah it's not a rose. I actually love lilacs and peonies.");
-//         }
+getAnswer2();
 
-//     } while (guessFlower != "no")
-// }
+function getAnswer3 (){
+    let guessFlower;
+    do {
+        guessFlower = prompt("Is my favorite flower a rose?").toLowerCase();
+        if (guessFlower != "no") {
+            alert("Sorry, you guessed wrong! Try again!")
+        } else {
+            document.write("Yeah it's not a rose. I actually love lilacs and peonies.");
+               score++;
+        }
 
-// getAnswer3();
+    } while (guessFlower != "no")
+}
 
-// function getAnswer4 (){
-//     'use strict';
-//     let guessIcecream;
-//     do {
-//         guessIcecream = prompt("Is my favorite ice cream salted caramel?").toLowerCase();
-//         if (guessIcecream != "yes") {
-//             alert("Hm, that's not right. Try again buddy!")
-//         } else {
-//             document.write("YES! I love salted caramel");
-//         }
+getAnswer3();
 
-//     } while (guessIcecream != "yes")
-// }
+function getAnswer4 (){
+    let guessIcecream;
+    do {
+        guessIcecream = prompt("Is my favorite ice cream salted caramel?").toLowerCase();
+        if (guessIcecream != "yes") {
+            alert("Hm, that's not right. Try again buddy!")
+        } else {
+            document.write("YES! I love salted caramel");
+              score++;            
+        }
 
-// getAnswer4();
+    } while (guessIcecream != "yes")
+}
 
-// function getAnswer5 (){
-//     'use strict';
-//     let guessBeverage;
-//     do {
-//         guessBeverage = prompt("Is my favorite beverage a chai latte?").toLowerCase();
-//         if (guessBeverage != "yes") {
-//             alert("Nope! Try again.")
-//         } else {
-//             document.write("YES! I love chai!");
-//         }
+getAnswer4();
 
-//     } while (guessBeverage != "yes")
-// }
+function getAnswer5 (){
+    'use strict';
+    let guessBeverage;
+    do {
+        guessBeverage = prompt("Is my favorite beverage a chai latte?").toLowerCase();
+        if (guessBeverage != "yes") {
+            alert("Nope! Try again.")
+        } else {
+            document.write("YES! I love chai!");
+               score++; 
+        }
 
-// getAnswer5();
+    } while (guessBeverage != "yes")
+}
 
-// function getAnswer6 (){
-// let correctAnswer = 14;
-// for (let i = 0; i < 4; i++) {
-//     console.log(i)
-//     let guessNumber = prompt("Guess a number");
-//     if (guessNumber == correctAnswer){
-//         alert("That's correct!"); 
-//         break;
-//       } else if (i >= 3) {
-//         alert("You've exhausted your attempts. The answer is 14.")
-//         break;
-//     } else if (guessNumber < correctAnswer) {
-//         alert("Too low, guess again.");
-//     } else if (guessNumber > correctAnswer) {
-//         alert("Too high, guess again.");
-//     } else { 
-//         alert("Not a valid input, try a number");
-//     }
-// }
-// }
+getAnswer5();
 
-// getAnswer6();
+function getAnswer6 (){
+let correctAnswer = 14;
+for (let i = 0; i < 4; i++) {
+    console.log(i)
+    let guessNumber = prompt("Guess a number");
+    if (guessNumber == correctAnswer){
+        alert("That's correct!"); 
+           score++; 
+        break;
+      } else if (i >= 3) {
+        alert("You've exhausted your attempts. The answer is 14.")
+        break;
+    } else if (guessNumber < correctAnswer) {
+        alert("Too low, guess again.");
+    } else if (guessNumber > correctAnswer) {
+        alert("Too high, guess again.");
+    } else { 
+        alert("Not a valid input, try a number");
+    }
+}
+}
+
+getAnswer6();
 
 function getAnswer7 () {
-let whereLived = ['montana', 'washington', 'utah', 'arizona'];
-let guessState = prompt ("Can you guess which state I live in?").toLowerCase();
-let chances = 5
+    let whereLived = ['pennsylvania', 'washington', 'utah', 'delaware'];
+    let guessState = prompt ("Can you guess a state I've lived in?").toLowerCase();
+    let attempts = 5;
 
-while(whereLived.indexOf(whereLived) == -1) {
-    console.log(i);
-for (let i = 0; i < 7; i++)
-    if (guessState == whereLived) {
-        alert("That's correct!"); 
-        break;
-    } else if (guessState != correctAnswer2) {
-        alert("That's incorrect, try again.");
-    } else if (i >= 5) {
-        alert("You've exhausted your attempts. The answer is Utah.");
-        break;
-        }
+    while(whereLived.indexOf(guessState) == -1 && attempts > 0) {
+        alert("That's not correct. Try typing Washington, Pennsylvania, Utah, or Delaware");
+        attempts--;
+        guessState = prompt ("Can you guess a state I've lived in?").toLowerCase();
+    }
+        if (whereLived.indexOf(guessState) != -1) {
+            alert("That's correct!");
+            score++;
+    }
 }
-}
-    getAnswer7();
+
+getAnswer7();
     
-// keep track of total number of correct answers and display how many out of 7 questions were correct
+alert("Congratulations " + user + "! You got " + score + " out of 7 questions correct.");
