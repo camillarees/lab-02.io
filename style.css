@@ -5,6 +5,7 @@ html, body {
     height: 100%;
     margin-left: 20px;
     margin-right: 20px;
+    position: sticky;
 }  
     
 h1 {
@@ -27,6 +28,9 @@ nav {
 main {
     border: 4px solid black;
     display: block;
+    position: sticky;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
 }
     
 header, footer, .footer-credits a {
@@ -39,14 +43,24 @@ header, footer, .footer-credits a {
     text-decoration: none;
 }
 
+section {
+
+    margin-bottom: 200px;
+
+}
+
 p {
     margin: auto;
     color: black;
     text-align: center;
 }
 
-li {
-    text-align: left
+.maintext {
+
+    text-align: left;
+    padding-top: 10px;
+    font-size: 16pt;
+
 }
 
 img {
@@ -56,13 +70,16 @@ img {
     margin-bottom: 10px;
 }
 
-a {
-color: white
+.mainphoto {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
 }
 
-main {
-    margin: auto;
-    background-color: rgb(255, 255, 255);
+a {
+color: white;
 }
 
 .wrapper {
