@@ -2,25 +2,23 @@
 
 let score = 0;
 
-let user = prompt('What is your name?');
-console.log('Welcome ' + user);
+let user = prompt("What is your name?");
+console.log("Welcome " + user);
 
 function getAnswer(message, correct1, correct2) {
     let answer = prompt(message).toLowerCase();
     if (answer === correct1 || answer === correct2) {
-        alert('Thats right!');
+        alert("Thats right!");
         score++;
         return;
     }
-    alert('That\'s not correct.');
+    alert("That's not correct.");
 }
-getAnswer('Is my favorite fruit a watermelon?', 'y', 'yes');
-getAnswer('Is my favorite flower a rose?', 'n', 'no');
-getAnswer('Is my favorite ice cream salted caramel?', 'y', 'yes');
-getAnswer('Is my favorite beverage a chai latte?', 'y', 'yes');
-getAnswer('Is my favorite color red?', 'n', 'no');
-
-
+getAnswer("Is my favorite fruit a watermelon?", "y", "yes");
+getAnswer("Is my favorite flower a rose?", "no", "no");
+getAnswer("Is my favorite ice cream salted caramel?", "y", "yes");
+getAnswer("Is my favorite beverage a chai latte?", "y", "yes");
+getAnswer("Is my favorite color red?", "n", "no");
 
 
 function getAnswer6() {
