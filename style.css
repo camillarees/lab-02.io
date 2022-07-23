@@ -21,7 +21,7 @@ h2 {
 nav {
     text-align: center;
     background-color: rgb(163, 178, 247);
-    height: 100px;
+    height: 100em;
     font-size: 2rem;
 }
 
@@ -53,29 +53,30 @@ p {
     margin: auto;
     color: black;
     text-align: center;
+    padding: 3em;
+    font-size: 16pt;
 }
 
 .maintext {
 
     text-align: left;
-    padding-top: 10px;
-    padding-right: 50px;
+    padding-top: 1em;
+    padding-right: 5em;
     font-size: 16pt;
 
 }
 
 img {
-    height: 300px;
+    height: 20em;
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .mainphoto {
     float: left;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    padding-left: 3em;
+    padding-right: 3em;
 
 }
 
